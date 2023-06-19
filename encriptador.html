@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="sidebar">
+            <div class="img1">
+                <img id="img1" src="/img/logoMio.png" alt="">
+            </div>
+        </div>
+        <div id="content1">
+            <div id="textArea">
+                <input type="text"id="texto1" placeholder="Ingrese el texto aqui" name="" >
+                <!-- <textarea name="" id="textArea1" cols="30" rows="10"></textarea> -->
+            </div>
+            <div id="textButton">
+                <p id="texto"><i class="fi fi-sr-exclamation"></i> Solo letras minúsculas y sin acentos</p>
+                <div id="encriptar">
+                    <button id="encripta1" type="button" onclick="encriptar()"> Encriptar</button>
+                    <button id="desencriptar1" type="button" onclick="desencriptar()">Desencriptar</button>
+                </div>
+               
+            </div>
+        </div>
+        <div id="content2" class="content2" >
+            <div>
+                <img src="img/chico.png" alt="" id="muñeco" />
+            </div>
+            <div >
+                <h2 id="titulo-mensaje">Ningún mensaje encontrado</h2>
+                <textarea name="resultado" id="parrafo" cols="30" rows="10" >
+
+                </textarea>
+                
+            </div>
+        </div>
+       
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
